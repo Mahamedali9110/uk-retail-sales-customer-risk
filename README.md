@@ -96,5 +96,6 @@ Python (pandas, openpyxl) · Excel (PivotTables) · Power BI (data modelling, DA
 1. Download the dataset from the UCI repository link above.
 2. Set up a Python virtual environment and install dependencies: `pip install pandas openpyxl`.
 3. Run `01_clean_and_transform.py` against the raw file to produce `sales_clean.csv` and `customer_summary.csv`.
+   - Note: `sales_clean.csv` (534,129 rows) is not included in this repo, as it exceeds GitHub's file size limit for standard uploads. `customer_summary.csv` is included, since it's the smaller, aggregated table. Run the script locally to regenerate `sales_clean.csv` from the raw source file.
 4. Open Power BI Desktop, load both CSVs, and build the date table and relationships as described above.
-5. Alternatively, open the included `.pbix` file directly.
+5. Alternatively, open the included `.pbix` file directly — it already contains the full data model and report pages.
